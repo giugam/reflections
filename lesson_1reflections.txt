@@ -1,0 +1,97 @@
+Q:1
+=====
+How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+
+I was able to quickly visually scan through the report by comparing the 
+- and + lines of code.
+=====
+
+Q:2
+=====
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+
+It is much more efficient to have the entire history of a file at your 
+disposal. Instead of wasting time trying to remember or locate different
+changes or files of a project, one can just focus on coding.
+Also when a project should be paused for some time, it is crucial to have 
+access to a complete history, because regardless of how smaller or bigger 
+the projects is, I believe everyone tend to forget some parts or steps as 
+it is not always possible or easy to recall all the details of a project.
+=====
+
+Q:3
+=====
+What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like
+Google Docs does?
+
+It enable the programmer to precisely select a clear purpose for that
+commit. Automatic saving will generate random commits wich may or may not
+have a purpose at all. Also a programmer is encouraged to divide the work
+into smaller units to build and commit which to me is a more pragmatic and
+logical process to follow. Same applies to adding more functionalities or
+fixing bugs, the point is to have one clear purpose to be achieved, then
+commit it, then move on to the next one.
+=====
+
+Q:4
+=====
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each
+file separately?
+
+Because most of program files are interrelated and parts of code in one
+file is called by another part of code in a different file, therefore it
+makes sense to allow saving multiple files in one commit.
+=====
+
+Q:5
+=====
+How can you use the commands git log and git diff to view the history of
+files?
+
+git log  
+sequence of various commits. To scroll down press the 'down arrow'
+
+git log - stats ??? 
+gives additional information and statistics of the log.
+IT DOESN'T WORK ANYMORE
+
+git diff first_commit_ID second_commit_ID
+displays information about the two different commits with:
+ --- before code lines that have been removed from that file
+ +++ before code lines that have been added to that file
+ =====
+
+ Q:6
+ =====
+ How might using version control make you more confident to make changes
+ that could break something?
+
+ The possibility of revert to previous committed changes made to the code
+ allows for a much greater sense of control, especially when finding bugs
+ in newly committed code. The use of "git diff old_commit new_commit" 
+ enables to check what was accidentally removed or added, or typos etc
+ which would take a long time otherwise. Also this can also being used to 
+ experiment with new implementations vs previous one, with the possibility
+ to go back and forth instantaneously. Awesome!
+ =====
+
+ Q:7
+ =====
+ Now that you have your workspace set up, what do you want to try using
+ Git for?
+
+ Write some code and get comfortable to use GIT commands, and do my first
+ commit!
+ =====
+
+ Q:8
+ =====
+
+
+
+ =====
+
