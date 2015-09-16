@@ -6,3 +6,17 @@ The folder becomes a repository and git adds metadata to track changes
 to this repository and the files contained in it. This should be done
 otherwise no tracking will be done. This can be done off line.
 =====
+
+Q:2
+=====
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+The 'staging area' is a temporary container which allows to collect one
+or more files that will form part of a commit. The' working
+area' contains all the files, even those that might never be commited.
+The 'repository' instead consists of the collection of both entities and
+keeps track of what is in the working directory, and what is in the
+staging area, ready to be commited, and once files will be commited
+these will form one logical group in one commit.
+=====
