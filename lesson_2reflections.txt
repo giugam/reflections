@@ -84,3 +84,21 @@ belonging to the two merging branches.
 It is possible to cancel the label of the branch that has been merged
 into another using 'git branch -d branch_label'.
 =====
+
+Q:7
+=====
+What are the pros and cons of Git’s automatic merging vs. always
+doing merges manually?
+
+The automatic merging helps the process of fusing between two branches. 
+Often it is usefull to merge the master branch into a different branch
+used for new or experimental development, therefore incorporating the
+official code into the new branch. Automatic merging enables us to
+automatically track conflicts and resolve them using the comments added
+by git to the file(s) with the conflicting code. Therefore git does not
+assume or guess how to merge, but it leaves the user to figure out what
+is best to do. The cons of automatic merging is to resolve conflicts,
+which may require some time and effort to understand the code and the
+changes made by others, however the conflicts are highlighted by git
+in the code.
+=====
