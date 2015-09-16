@@ -1,0 +1,8 @@
+Q1:
+=====
+What happens when you initialize a repository? Why do you need to do it?
+
+The folder becomes a repository and git adds metadata to track changes
+to this repository and the files contained in it. This should be done
+otherwise no tracking will be done. This can be done off line.
+=====
