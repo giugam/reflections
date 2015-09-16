@@ -34,3 +34,19 @@ working area and the staging area, or the 'git diff -staged' to find
 out the differences between the staging area and the most recent
 commit.
 =====
+
+Q:4
+=====
+What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+
+'Branches' are lables to provide an independed new line of changes,
+whether this refers to try out an experimental change or for example to
+introduce a new feature.
+It is possible to 'checkout' (reposition) into different branches, the
+last commit of a branch is referred to as the 'tip' of that branch. 
+The standard branch is the 'master' branch. Branches can also be merged
+into the main stem or master branch. Being able to give
+self-explenatory names to branches allows us to identify them more
+easily, enabling us to join logically a series of commit into a branch.
+=====
