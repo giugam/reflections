@@ -50,3 +50,18 @@ into the main stem or master branch. Being able to give
 self-explenatory names to branches allows us to identify them more
 easily, enabling us to join logically a series of commit into a branch.
 =====
+
+Q:5
+=====
+How do the diagrams help you visualize the branch structure?
+
+It provides indication of the history of the project through each of
+the branches. If we checkout a specific commit, the 'head' is
+repositioned there and if we make changes and then commit, the new
+commit will occur at that point and it won't be reachable (unless 
+we write down its ID). 
+By using the command 'git checkout -b new_branch_name' we create a
+new branch starting with that commit and we checkout into that new
+branch. Very useful double command! The diagrams help to show the
+branches of a project using the command 'git log --graph'.
+=====
