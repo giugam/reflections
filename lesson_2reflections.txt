@@ -65,3 +65,22 @@ new branch starting with that commit and we checkout into that new
 branch. Very useful double command! The diagrams help to show the
 branches of a project using the command 'git log --graph'.
 =====
+
+Q:6
+=====
+What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+
+Merging two branches means to incorporate all the commits of a
+branch into another, still retaining all their individual commits
+even if they belong to different branches. The commits get aligned
+sequentially using their  time-stamp. This means that the commits
+might be intertwined between one another. To determine which is the
+previous commit of another one, we can use 'git show commit_ID'
+which will display the differences between that commit and its parent
+(even if we don't know the ID of the previous commit). A merge of two
+branches generates another commit which refers to the two commits
+belonging to the two merging branches. 
+It is possible to cancel the label of the branch that has been merged
+into another using 'git branch -d branch_label'.
+=====
