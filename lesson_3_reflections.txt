@@ -35,3 +35,19 @@ a repository of another developer into your own GitHub space. This method
 keeps track of who has forked the project, as well as maintain a reference
 to the original developer. By invoking this command on GitHub generates automatically a remote repository called 'origin'. 
 =====
+
+Q:4
+=====
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+When collaborating with other peoples, this feature is very useful because
+it allows asynchronous development from various collaborators. The changes
+made by a collaborator on a remote repository can be imported locally, 
+using the fetch command, to the local origin/master branch (which keeps 
+track of the last known state of the remote) without having an impact on 
+the master local branch. Then these changes can be merged afterwards into
+the local master branch. One useful reason would be when developing
+locally without internet access, if a collaborator make changes on the
+remote version, then these changes can be fetched when the net becomes available again.
+=====
+
