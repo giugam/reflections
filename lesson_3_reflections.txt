@@ -14,3 +14,24 @@ Pulling changes manually allows for greater control. Being able to
 decide when to sync a 'remote' with a 'local' repository gives the developer
 the possibility to choose how to proceed.
 =====
+
+Q:3
+=====
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branches:
+Operates on a local repository, allowing to differentiate a project or make
+experimental changes without affecting the main project.
+
+Clones:
+Operates on a local or remote repository. It allows to duplicate a local
+repository or to clone a remote repository on GitHub on your local
+machine. It is possible to clone a forked project using the provided link
+that is present on the respective GitHub page.
+
+Forks:
+Operates only on a remote repository on GitHub. It allows to duplicate
+a repository of another developer into your own GitHub space. This method
+keeps track of who has forked the project, as well as maintain a reference
+to the original developer. By invoking this command on GitHub generates automatically a remote repository called 'origin'. 
+=====
