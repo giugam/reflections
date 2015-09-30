@@ -40,14 +40,30 @@ Q:4
 =====
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-When collaborating with other peoples, this feature is very useful because
-it allows asynchronous development from various collaborators. The changes
+When collaborating with other people, this feature is very useful because
+it allows various collaborators to work at the same time. The changes
 made by a collaborator on a remote repository can be imported locally, 
 using the fetch command, to the local origin/master branch (which keeps 
 track of the last known state of the remote) without having an impact on 
 the master local branch. Then these changes can be merged afterwards into
-the local master branch. One useful reason would be when developing
-locally without internet access, if a collaborator make changes on the
-remote version, then these changes can be fetched when the net becomes available again.
+the local master branch. Another benefit occurs when developing
+locally without internet access, if a collaborator makes changes on the
+remote repository, then these changes can be fetched locally when the net becomes available again.
 =====
 
+Q:5
+=====
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaborating without using Git / GitHub will involve a great deal of communication between collaborators, and might result in a much less 
+efficient way of sharing information and stick to a schedule. Also it might create more confusion and uncertainty.
+
+What would be easier:
+Nothing (aside from not having to deal with the Git/GitHub learning curve) 
+
+What would be harder:
+Track changes, and in general having to deal with multiple versions of
+code. Spend more time to locate bugs and fix them, after multiple changes
+are added to the code. Increase of difficulties in proposing and testing
+new changes or variations. Increase of difficulties in collaborating with others.
+=====
