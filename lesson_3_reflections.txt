@@ -67,3 +67,25 @@ code. Spend more time to locate bugs and fix them, after multiple changes
 are added to the code. Increase of difficulties in proposing and testing
 new changes or variations. Increase of difficulties in collaborating with others.
 =====
+
+Q:6
+=====
+When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+
+When collaborating with others it is useful to create a separate new
+branch for a specific change, then push that branch on GitHub so that
+a pull request can be created and other collaborators can look at it
+and check these changes and give comments and feedback. This approach
+is neat because branches can have a limited life-span which is related
+to that specific task, and then once that task is completed, the pull 
+request can be merged back into the master branch, and that specific 
+branch can be deleted.
+Working only on the master branch can be more straightforward and easy
+especially when there are no collaborators involved. However using
+different branches, for modifications or experimental changes, can be
+very helpful because this method gives more freedom and peace of mind
+since the main code remains untouched on the master branch.
+=====
+
+
